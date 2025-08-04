@@ -16,3 +16,5 @@ It tracks the number of visits to a page and stores the count in Redis.
 
 ## Containerization with Docker
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/dockerfile.png?raw=true) 
+
+### 🔢 Browser – Count Page

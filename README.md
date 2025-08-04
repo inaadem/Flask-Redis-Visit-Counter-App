@@ -29,6 +29,7 @@ visit-counter/
 
 ## Containerization with Docker
 Containerize the application using Docker
+
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/dockerfile.png?raw=true) 
 
 

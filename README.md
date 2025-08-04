@@ -17,7 +17,10 @@ It tracks the number of visits to a page and stores the count in Redis.
 ## Containerization with Docker
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/dockerfile.png?raw=true) 
 
-### 🔢 Browser – Count Page
+##  Browser – Count Page
+This page displays the current visit count.
+Every time the user refreshes or revisits this page, the counter increases.
+Flask communicates with Redis, increments the visits key, and renders the count using count.html.
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/browser-welcome.png.png?raw=true) 
 
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/browser-welcome.png%20(2).png?raw=true) 

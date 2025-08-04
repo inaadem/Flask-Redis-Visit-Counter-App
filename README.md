@@ -19,5 +19,5 @@ It tracks the number of visits to a page and stores the count in Redis.
 
 ### 🔢 Browser – Count Page
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/browser-welcome.png.png?raw=true) 
-![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/browser-welcome.png.png?raw=true) 
+
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/browser-welcome.png%20(2).png?raw=true) 

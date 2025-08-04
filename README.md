@@ -12,7 +12,7 @@ It tracks the number of visits to a page and stores the count in Redis.
 - 👨‍💻 Display count using Flask & HTML templates
 
 ## 📁 Project Structure
-'''
+```
 visit-counter/
 ├── app/
 │   ├── app.py
@@ -25,7 +25,7 @@ visit-counter/
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
-'''
+```
 
 ## Containerization with Docker
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/dockerfile.png?raw=true) 

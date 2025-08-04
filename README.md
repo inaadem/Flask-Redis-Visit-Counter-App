@@ -75,17 +75,17 @@ Flask communicates with Redis, increments the visits key, and renders the count 
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/browser-welcome.png%20(2).png?raw=true) 
 
 ## Technologies Used:
-Flask – Lightweight web server for Python
+- Flask – Lightweight web server for Python
 
-Redis – Fast key-value store to track visits
+- Redis – Fast key-value store to track visits
 
-Docker – For containerizing the app
+- Docker – For containerizing the app
 
-Docker Compose – For orchestrating services together
+- Docker Compose – For orchestrating services together
 
-Nginx – To proxy traffic to the Flask app
+- Nginx – To proxy traffic to the Flask app
 
-HTML + Jinja2 – For dynamic UI rendering
+- HTML + Jinja2 – For dynamic UI rendering
 
 # How to Run
 

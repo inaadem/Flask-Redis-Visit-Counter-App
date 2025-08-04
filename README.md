@@ -94,7 +94,7 @@ cd visit-counter-app
 
 ### 2.Build and run containers
 ```bash
-docker compose up --build```
+docker compose up --build ```
 
 ### 3.Visit the app
 Go to: http://localhost:8080

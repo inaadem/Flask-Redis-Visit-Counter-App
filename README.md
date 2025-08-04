@@ -12,16 +12,4 @@ It tracks the number of visits to a page and stores the count in Redis.
 -  Display count using Flask & HTML templates
 
 ## 📁 Project Structure
-visit-counter/
-│
-├── app/
-│ ├── app.py
-│ └── templates/
-│ ├── welcome.html
-│ └── count.html
-├── Dockerfile
-├── docker-compose.yml
-├── nginx.conf
-├── requirements.txt
-├── .gitignore
-├── README.md
+![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/project%20strujer.png?raw=true)

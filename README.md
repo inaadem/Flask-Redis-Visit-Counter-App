@@ -48,7 +48,7 @@ It tracks the number of visits to a page and stores the count in Redis.
 
 volumes:
   redis-data:
-
+```
 
 ##  Browser – Count Page
 This page displays the current visit count.

@@ -17,6 +17,39 @@ It tracks the number of visits to a page and stores the count in Redis.
 ## Containerization with Docker
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/dockerfile.png?raw=true) 
 
+
+## Containerization with Docker
+
+```services:
+  web:
+    build: .
+    expose:
+      - "5002"
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=my-redis
+      - REDIS_PORT=6379
+  
+  redis:
+    image: redis
+    hostname: my-redis
+    volumes: 
+      - redis-data:/data
+  
+  nginx:
+    image: nginx:latest
+    ports:
+      - "5002:5002"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - web
+
+volumes:
+  redis-data:
+
+
 ##  Browser – Count Page
 This page displays the current visit count.
 Every time the user refreshes or revisits this page, the counter increases.

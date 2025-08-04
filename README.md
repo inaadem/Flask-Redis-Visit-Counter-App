@@ -28,6 +28,7 @@ visit-counter/
 ```
 
 ## Containerization with Docker
+Containerize the application using Docker
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/dockerfile.png?raw=true) 
 
 
@@ -84,3 +85,21 @@ Docker Compose – For orchestrating services together
 Nginx – To proxy traffic to the Flask app
 
 HTML + Jinja2 – For dynamic UI rendering
+
+# How to Run
+
+### 1.Clone the repo
+git clone https://github.com/yourusername/visit-counter-app.git
+cd visit-counter-app
+
+### 2.Build and run containers
+```bash
+docker compose up --build```
+
+### 3.Visit the app
+Go to: http://localhost:8080
+Click through to the Count Page to test Redis counter
+
+
+
+

@@ -15,3 +15,4 @@ It tracks the number of visits to a page and stores the count in Redis.
 ![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/project%20strujer.png?raw=true)
 
 ## Containerization with Docker
+![Docker Compose](https://github.com/inaadem/my-visit-counter-app/blob/main/dockerfile.png?raw=true) 
